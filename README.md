@@ -3,13 +3,6 @@ Innovating new ideas to improve khatabook and make it a better company from befo
 # Khatabook AI-Powered Smart Insights Base Code
 # This is a basic Python implementation for a digital ledger app inspired by Khatabook.
 
-import pandas as pd
-import numpy as np
-from sklearn.linear_model import LinearRegression
-import matplotlib.pyplot as plt
-from datetime import datetime
-import os
-
 class KhatabookLedger:
     def __init__(self, data_file='transactions.csv'):
         self.data_file = data_file
